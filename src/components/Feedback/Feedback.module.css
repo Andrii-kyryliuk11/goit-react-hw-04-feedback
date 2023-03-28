@@ -1,0 +1,23 @@
+.title {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.button {
+    margin: 5px;
+    width: 70px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: thistle;
+    
+    transition: transform 150ms linear;
+}
+.button:hover {
+    
+    transform: scale(1.07);
+}
+.stat {
+    display: flex;
+    
+}
